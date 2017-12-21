@@ -1,0 +1,202 @@
+/*CSS*/
+
+body {
+  padding-top: 10px;
+  padding-left: 40px;
+  background-image: url(karta.jpg);
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: 5px;
+  color: white;
+}
+
+h1 {
+  font-family: 'Orbitron', sans-serif;
+}
+
+#sadrzaj {
+  width: auto;
+  height: auto;
+}
+
+.linija {
+  width: auto;
+  height: auto;
+  padding: 5px;
+  display: table;
+  background-color: none;
+}
+
+.polje {
+  width: 100px;
+  height: 100px;
+  float: left;
+  margin: 5px;
+  padding: 5px;
+  background-color: #2d87ef;
+  font-size: 10px;
+  color: white;
+  text-align: center;
+}
+
+.duplo {
+  width: 200px;
+  text-align: center;
+}
+
+.zeleno {
+  background-color: rgba(56, 247, 165, 0.7);
+}
+
+.crveno {
+  background-color: rgb(255, 0, 0);
+}
+
+.zuto {
+  background-color: rgba(255, 51, 255, 0.7);
+}
+
+.polje:hover {
+  background-color: transparent;
+  cursor: wait;
+}
+
+.crveno:hover {
+  background-color: transparent;
+}
+
+img#prva1 {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  margin-top: 25px;
+}
+img#prva2 {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  margin-top: 25px;
+}
+img#prva3 {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  margin-top: 25px;
+}
+img#prva4 {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  margin-top: 25px;
+}
+img#prva5 {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  margin-top: 25px;
+}
+img#prva6 {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  margin-top: 25px;
+}
+
+p{
+  border-bottom: 10px dotted #92b558;
+  margin-left: 15px;
+}
+
+img#druga1 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  margin-top: 10px;
+}
+img#druga2 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  margin-top: 10px;
+}
+img#druga3 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  margin-top: 10px;
+}
+img#druga4 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  margin-top: 10px;
+}
+img#druga5 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  margin-top: 10px;
+}
+img#druga6 {
+  height: 20px;
+  width: 20px;
+  position: relative;
+  margin-top: 10px;
+}
+
+ul {
+  position: fixed;
+  top: 400px;
+  left: 0px;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul li {
+  width: 50px;
+  height: 30;
+  text-align: center;
+  line-height: 180%;
+  font-weight: bolder;
+  transition: 200ms linear;
+}
+
+/*lista*/
+#face {
+  background: #dfe3ee;
+}
+
+#google {
+  background: #3cba54;
+}
+
+#in {
+  background: #0077b5;
+}
+
+#word {
+  background: #d54e21;
+}
+
+#twit {
+  background: #00aced;
+}
+
+#github {
+  background: #ffffff;
+}
+
+ul li:hover {
+  width: 100px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+footer {
+  position: relative;
+  text-align: right;
+  bottom: 0px;
+  color: #92b558;
+  font-family: 'Dancing Script', cursive;
+}
